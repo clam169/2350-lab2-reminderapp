@@ -2,14 +2,6 @@ import { question } from 'readline-sync';
 import { ReminderList } from './reminderlist';
 import { Confirm } from './confirm';
 
-let response1 = 'Get milk';
-let response2 = 'Grocery';
-ReminderList.addReminder(response1, response2);
-
-response1 = 'Get Eggs';
-response2 = 'Grocery';
-ReminderList.addReminder(response1, response2);
-
 export const printMenu = () => {
   console.log(`\n------------------------------
 |      Reminders menu:       |
